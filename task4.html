@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Quiz Maker</title>
+<style>
+    /* Basic styling for layout */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Welcome to Online Quiz Maker</h1>
+    <p>Select an option:</p>
+    <button class="btn" onclick="createQuiz()">Create Quiz</button>
+    <button class="btn" onclick="takeQuiz()">Take Quiz</button>
+</div>
+
+<script>
+    // Function to simulate quiz creation
+    function createQuiz() {
+        window.location.href = "create_quiz.html"; // Redirect to quiz creation page
+    }
+
+    // Function to simulate taking a quiz
+    function takeQuiz() {
+        window.location.href = "take_quiz.html"; // Redirect to quiz taking page
+    }
+</script>
+
+</body>
+</html>
